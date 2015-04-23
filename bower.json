@@ -1,0 +1,19 @@
+{
+  "name": "SofiaVolunteerWeek",
+  "version": "2015.1",
+  "homepage": "https://github.com/TimeHeroes/SofiaVolunteerWeek",
+  "authors": [
+    "Alek Andreev <alek@zvuk.net>"
+  ],
+  "license": "GPL",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}

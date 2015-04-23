@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<title>Sofia Volunteer Week | Софийска седмица на доброволчеството</title>
+
+<link rel="stylesheet" href="/static/style.css">
+<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.8/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.8/mapbox.css' rel='stylesheet' />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+<div class="container-fluid header">
+    <div class="row">
+        <div class="col-md-12">
+            <img class="logo" src="/static/logo.png">
+        </div>
+    </div>
+</div>
+<div class="container intro">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <p>Софийската седмица на доброволчеството е времето, когато столичани могат да се запознаят с почти всяка доброволческа организация в града.</p>
+            <p>На 26-ти април, неделя, ще проведем Форум на доброволчеството до НДК, където ще имат щандове над 14 организации, които ще разкажат за възможностите за доброволчество, които предлагат.</p>
+            <p>През остатъка от седмицата, можете да участвате в различни доброволчески събития из града. Вижте каратата.</p>
+        </div>
+    </div>
+</div>
+
+<div id="map"></div>
+
+<script>
+// Provide your access token
+L.mapbox.accessToken = 'pk.eyJ1IjoidGltZWhlcm9lcyIsImEiOiIzQ2VyRUljIn0.qWSbkF7cxAsK7I0HiwH7cw';
+// Create a map in the div #map
+L.mapbox.map('map', 'timeheroes.m09g36l9');
+</script>
+</body>
+</html>
